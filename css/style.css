@@ -349,8 +349,67 @@ h1,h2,h3,h4,h5{
 }
 
 .list-razmeshenie-item{
-  flex: 0 0 33.33%;
-  margin-bottom: 10px;
+  flex: 0 0 32%;
+  width: 374px;
+  margin-bottom: 23px;
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column;  
+}
+
+.razmeshenie__price{
+  margin-top: 30px;
+  margin-left: 45px;
+  margin-bottom: 0;
+}
+
+.stars{
+  transform: translateY(-18px);
+  margin-left: 250px;
+}
+
+.razmeshenie__name{
+  margin-top: 0;
+  margin-left: 45px;
+  color: #000000;
+}
+
+.razmeshenie__location{
+  margin-left: 45px;
+  color: #999999;
+}
+
+.razmeshenie__btn{
+  padding: 12px 20px;
+  color: #cc9933;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  margin: 20px 229px 41px 45px;
+  text-align: center;
+  background-color: transparent;  
+}
+
+.razmeshenie_item__all{
+  width: 373px;
+  height: 440px;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-image: url('../img/rezmeshenie9.png');
+}
+
+.razmeshenie_all_link{
+  text-align: center;
+  margin-top: 373px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;  
+}
+
+.razmeshenie_all_link:hover{
+  font-size: 30px;
+  transition: font-size .2s linear;
 }
 
  /* Контакты */
